@@ -1,0 +1,91 @@
+{
+  "name": "fema-essentials",
+  "displayName": "FEMA Essentials Bundle",
+  "description": "Pacote de extensões para o vscode desenvolvido para os alunos da FEMA.",
+  "version": "1.0.0",
+  "icon": "assets/fema-essentials-logo.png",
+  "galleryBanner": {
+    "color": "#003F6D",
+    "theme": "dark"
+  },
+  "publisher": "fema-devspace",
+  "pricing": "Free",
+  "categories": [
+    "Extension Packs"
+  ],
+  "keywords": [
+    "fema",
+    "ciência da computação",
+    "computação",
+    "bcc",
+    "analise e desenvolvimento de sistemas",
+    "ads"
+  ],
+  "author": {
+    "name": "Thiago Ausechi",
+    "email": "thiago_ausechi@icloud.com",
+    "url": "https://www.linkedin.com/in/thiagoausechi/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/femadevspace/fema-essentials"
+  },
+  "bugs": {
+    "url": "https://github.com/femadevspace/fema-essentials/issues"
+  },
+  "contributes": {
+    "configurationDefaults": {
+      "javascript.updateImportsOnFileMove.enabled": "always",
+      "javascript.suggest.autoImports": true,
+      "workbench.iconTheme": "material-icon-theme",
+      "files.autoSave": "off",
+      "editor.fontLigatures": true,
+      "editor.formatOnSave": true,
+      "editor.formatOnPaste": false,
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.bracketPairColorization.enabled": true,
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit"
+      },
+      "colorize.languages": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "json"
+      ],
+      "colorize.colorized_colors": [
+        "HEXA",
+        "ARGB",
+        "RGB",
+        "HSL"
+      ],
+      "code-runner.clearPreviousOutput": true,
+      "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+      }
+    }
+  },
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "extensionPack": [
+    "fema-devspace.femascript-lang",
+    "formulahendry.auto-rename-tag",
+    "kamikillerto.vscode-colorize",
+    "adpyke.codesnap",
+    "ritwickdey.LiveServer",
+    "PKief.material-icon-theme",
+    "esbenp.prettier-vscode",
+    "MS-CEINTL.vscode-language-pack-pt-BR",
+    "aaron-bond.better-comments",
+    "ms-vscode.cpptools",
+    "formulahendry.code-runner",
+    "WallabyJs.console-ninja",
+    "Cardinal90.multi-cursor-case-preserve",
+    "christian-kohler.path-intellisense",
+    "steoates.autoimport"
+  ]
+}
